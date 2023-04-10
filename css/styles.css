@@ -17,8 +17,9 @@
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 
     outline-offset: -2px;
     outline: 2px solid red;
@@ -66,6 +67,7 @@ button {
 .header-container {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #E7E9FC;
  }
 
 .header-logo {
@@ -175,16 +177,15 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-bg-cl);
-padding-top: 260px;
-padding-right: 300px;
-padding-left: 328px;
-padding-bottom: 48px;
+padding-top: 188px;
+padding-bottom: 188px;
+max-width: 496px;
 }
 
 .hero-btn {
 font-family: Roboto, sans-serif;
 background-color: var(--btn-cl);
-
+display: block;
 cursor: pointer;
 font-weight: 500;
 font-size: 16px;
@@ -196,6 +197,9 @@ min-height: 56px;
 padding: 16px 32px;
 margin-bottom: 188px;
 margin-left: 500px;
+border: none;
+height: 56px;
+border-radius: 4px;
 
 }
 .hero-btn:hover,
@@ -239,13 +243,15 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--head-txt-cl);
-padding-bottom: 72px;
+margin-bottom: 72px;
 
 }
 .we-do-img {
   padding-bottom: 0px;
 }
-
+.section-we-do {
+    padding-bottom: 120px;
+}
 
 /* Section 4 */
 
