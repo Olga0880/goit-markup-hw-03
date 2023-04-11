@@ -182,7 +182,7 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-bg-cl);
 padding-top: 188px;
-padding-bottom: 188px;
+padding-bottom: 48px;
 max-width: 496px;
 }
 
@@ -389,6 +389,7 @@ color: #F4F4FD;
     letter-spacing: 0.02em;
     color: var(--head-txt-cl);
     padding-top: 32px;
+    margin-bottom: 8px;
 
 }
 
@@ -428,7 +429,7 @@ color: #F4F4FD;
     border: 1px solid var(--btn-bg-cl);
     border-top: none;
     margin-bottom: 8px;
-    
+
 }
 .flex-element {
     padding-bottom: 48px;
