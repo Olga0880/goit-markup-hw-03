@@ -8,7 +8,8 @@
     --head-txt-cl: #2e2f42; 
     --main-bg-cl: #ffffff;
     --btn-cl: #4d5ae5; 
-    --studio-cl: #F4F4FD; 
+    --studio-cl: #F4F4FD;
+    --btn-bg-cl: #E7E9FC; 
 }
 
 /* Base styles */
@@ -65,7 +66,7 @@ button {
 
 /* Header */
 .header {
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid var(--btn-bg-cl);
 }
 .header-container {
     display: flex;
@@ -237,6 +238,9 @@ letter-spacing: 0.02em;
 color: var(--main-txt-cl);
 
 }
+.about-list {
+    width: calc((100%-72px)/4);
+}
 
 /* Section 3 */
 
@@ -363,7 +367,10 @@ color: #F4F4FD;
     color: var(--btn-cl);
     background-color: var(--studio-cl);
     border-radius: 5px;
-    border: 3px solid #E7E9FC;
+    border: 1px solid var(--btn-bg-cl);
+    padding: 12px 24px;
+    border-radius: 4px;
+    
 
 }
 .portf-btn:hover , 
@@ -371,6 +378,8 @@ color: #F4F4FD;
    color: var(--main-bg-cl);
    background-color: var(--accent-txt-cl);
    cursor: pointer;
+   border: 1px solid transparent;
+
 }
 
 .portf-title {
@@ -400,8 +409,9 @@ color: #F4F4FD;
     gap: 24px;
     padding-top: 96px;
     align-items: center;
-    padding-left: 350px;
-    padding-bottom: 72px;
+    
+    justify-content: center;
+    margin-bottom: 72px;
 }
 .flex-container {
     display: flex;
@@ -409,7 +419,18 @@ color: #F4F4FD;
     justify-content: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
+}
+.conteiner-portf {
+    padding: 32px 16px;
+    border: 1px solid var(--btn-bg-cl);
+    border-top: none;
+    margin-bottom: 8px;
+    
 }
 .flex-element {
     padding-bottom: 48px;
+
 }
