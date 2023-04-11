@@ -64,10 +64,13 @@ button {
 /* Reset end */
 
 /* Header */
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
+    
  }
 
 .header-logo {
@@ -165,7 +168,7 @@ font-weight: 400;
  
 /* Section 1 */
 .hero {
-
+padding: 188px 0;
 background-color: var(--head-txt-cl);
 }
 .hero-item {
@@ -223,6 +226,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--head-txt-cl);
+width: calc((100%-72px)/4);
+margin-bottom: 8px;
 }
 
 .about-description {
@@ -287,6 +292,7 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--head-txt-cl);
+    margin-bottom: 8px;
 }
 
 .profession {
@@ -325,7 +331,7 @@ color: #F4F4FD;
 
 
 }
-.footer-container {
+.footer {
     padding-top: 100px;
     padding-bottom: 100px;
     margin-top: 0px;
