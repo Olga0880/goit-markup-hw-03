@@ -22,8 +22,6 @@
     padding-right: 15px;
     
 
-    outline-offset: -2px;
-    outline: 2px solid red;
 
 }
 body {
@@ -84,8 +82,7 @@ text-transform: uppercase;
 color: var(--btn-cl);
 letter-spacing: 0.03em;
 margin-right: 76px;
-display:flex;
-align-items: center;
+
 padding-top: 24px;
 padding-bottom: 24px;
 
@@ -183,6 +180,7 @@ letter-spacing: 0.02em;
 color: var(--main-bg-cl);
 margin: 0 auto;
 max-width: 496px;
+margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -229,8 +227,16 @@ color: var(--head-txt-cl);
 
 margin-bottom: 8px;
 }
-.hid {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .about-description {
 font-size: 16px;
@@ -274,7 +280,7 @@ margin-bottom: 72px;
 
 }
 .team-title {
-font-weight: 500;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -350,6 +356,10 @@ color: #F4F4FD;
 }
 .footer-item {
     width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 /* PORTFOLIO */
@@ -388,7 +398,6 @@ color: #F4F4FD;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--head-txt-cl);
-    padding-top: 32px;
     margin-bottom: 8px;
 
 }
@@ -427,6 +436,5 @@ color: #F4F4FD;
     padding: 32px 16px;
     border: 1px solid var(--btn-bg-cl);
     border-top: none;
-    margin-bottom: 8px;
 
 }
